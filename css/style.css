@@ -320,3 +320,53 @@
   left: 40px;
   top: 90px;
 }
+
+.service-uslugi {
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.service-uslugi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 150px;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.5),
+    rgba(139, 63, 63, 0.8)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.service-uslugi:hover::before {
+  opacity: 1;
+}
+
+.info-akkum {
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.info-akkum::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 150px;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.5),
+    rgba(139, 63, 63, 0.8)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.info-akkum:hover::before {
+  opacity: 1;
+}
