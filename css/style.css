@@ -20,7 +20,6 @@
 #hero {
   background-image: url(../images/фон\ главного\ баннера4\ 1.png);
   width: 1688px;
-
   height: 750px;
 }
 
@@ -139,8 +138,6 @@
   font-size: 18px;
   text-align: center;
   padding-top: 186px;
-  /* background: #000; */
-  /* opacity: 0.3; */
   position: relative;
 }
 
@@ -159,7 +156,7 @@
 
 .card_first:hover::before {
   opacity: 1;
-  visibility:visible;
+  visibility: visible;
 }
 
 .card_first h2 {
@@ -191,4 +188,135 @@
   height: 52px;
   align-items: center;
   justify-content: center;
+}
+.service {
+  background-image: url(../images/topoboi.png);
+  background-color: rgba(0, 0, 0, 0.8); /* Чёрный цвет с 50% прозрачности */
+  background-blend-mode: darken; /* Затемнение */
+  width: 1677px;
+  height: 1000px;
+  color: var(--white-color);
+}
+.uslugi {
+  text-align: center;
+  padding-top: 88px;
+}
+
+.help {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 32px;
+}
+
+.service hr {
+  width: 170px;
+  margin-left: 754px;
+  margin-top: 8px;
+  height: 4px;
+  background-color: red;
+}
+
+.service-uslugi {
+  margin-top: 74px;
+  margin-left: 256px;
+  height: 200px;
+  display: flex;
+  position: relative;
+  background-image: url(../images/Rectangle6.svg);
+  background-repeat: no-repeat;
+}
+
+.rectangl {
+  width: 78.5px;
+  height: 92px;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.service-uslugi h2 {
+  padding-left: 50px;
+  font-size: 16px;
+}
+
+.service-uslugi p {
+  font-size: 16px;
+  position: absolute;
+  left: 150px;
+  padding-top: 16px;
+}
+
+.info-maslo {
+  top: 34px;
+}
+
+.info-akkum {
+  height: 200px;
+  margin-left: 256px;
+  display: flex;
+  position: relative;
+  background-image: url(../images/Rectangle6.svg);
+  background-repeat: no-repeat;
+}
+
+.tex-podderzh {
+  width: 78.5px;
+  height: 92px;
+  left: 25px;
+  top: 13px;
+  position: absolute;
+}
+
+.info-akkum h2 {
+  padding-left: 150px;
+  font-size: 16px;
+}
+
+.info-akkum p {
+  font-size: 16px;
+  position: absolute;
+  left: 150px;
+  padding-top: 16px;
+}
+
+.akkum img {
+  width: 78.5px;
+  height: 92px;
+  left: 25px;
+  top: 13px;
+  position: absolute;
+}
+
+.akkum > h2 {
+  padding-left: 150px;
+}
+
+.frame {
+  padding-left: 270px;
+  height: 580px;
+}
+
+.button {
+  margin-left: 702px;
+  margin-top: 46px;
+  border: 4px solid red;
+  width: 236px;
+  height: 56px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.union {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 40px;
+  top: 5px;
+}
+
+.unions {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 40px;
+  top: 90px;
 }
