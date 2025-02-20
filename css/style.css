@@ -5,7 +5,7 @@
 }
 
 .nav-list {
-  width: 1688px;
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
 
 #hero {
   background-image: url(../images/фон\ главного\ баннера4\ 1.png);
-  width: 1688px;
+  width: 100%;
   height: 750px;
 }
 
@@ -55,7 +55,7 @@
 
 .block {
   background-color: var(--black-color);
-  width: 1688px;
+  width: 100%;
   height: 272px;
   margin-top: 170px;
   display: flex;
@@ -94,7 +94,7 @@
 
 .info {
   background-image: url(../images/фон.png);
-  width: 1677px;
+  width: 100%;
   height: 1244px;
   margin-top: 225px;
 }
@@ -193,7 +193,7 @@
   background-image: url(../images/topoboi.png);
   background-color: rgba(0, 0, 0, 0.8); /* Чёрный цвет с 50% прозрачности */
   background-blend-mode: darken; /* Затемнение */
-  width: 1677px;
+  width: 100%;
   height: 1000px;
   color: var(--white-color);
 }
@@ -210,7 +210,7 @@
 
 .service hr {
   width: 170px;
-  margin-left: 754px;
+  margin-left: 677px;
   margin-top: 8px;
   height: 4px;
   background-color: red;
@@ -369,4 +369,139 @@
 
 .info-akkum:hover::before {
   opacity: 1;
+}
+
+#company {
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 667px;
+  z-index: 1;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: darken;
+}
+
+.photo {
+  width: 300px;
+  height: 288px;
+  position: absolute;
+  z-index: 1;
+  top: 222px;
+  left: 256px;
+  clip-path: polygon(
+    32% 0,
+    100% 0,
+    100% 35%,
+    100% 73%,
+    83% 86%,
+    65% 100%,
+    0 100%,
+    0% 70%,
+    0 22%,
+    16% 11%
+  );
+  border: 4px solid #c53720;
+}
+
+.company-text {
+  color: var(--white-color);
+  font-size: 36px;
+  position: absolute;
+  top: 88px;
+  left: 615px;
+}
+
+.text {
+  background-color: #c53720;
+  width: 280px;
+  height: 4px;
+  top: 150px;
+}
+
+.btn-uznat {
+  position: absolute;
+  color: var(--white-color);
+  margin-top: 46px;
+  border: 4px solid red;
+  width: 236px;
+  height: 56px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.info-uznat {
+  color: var(--white-color);
+  width: 680px;
+  height: 255px;
+  font-size: 16px;
+  position: absolute;
+  top: 222px;
+  left: 580px;
+  border: 4px solid red;
+  padding: 32px;
+}
+
+#novosti {
+  width: 100%;
+  height: 750px;
+}
+
+#novosti h2 {
+  font-size: 36px;
+  margin-top: 88px;
+  margin-left: 650px;
+}
+
+#novosti hr {
+  height: 4px;
+  width: 216px;
+  background-color: #c53720;
+  margin-left: 637px;
+}
+
+.rectangle img {
+  width: 360px;
+  height: 284px;
+}
+
+.rectangle {
+  background-color: #1d1d1d;
+  width: 360px;
+  height: 400px;
+  margin-top: 74px;
+  margin-left: 200px;
+  gap: 24px;
+}
+
+.rectangle p {
+  padding-top: 12px;
+  color: #c53720;
+  margin-left: 20px;
+}
+
+.rectangle h3 {
+  color: var(--white-color);
+  font-size: 16px;
+  padding: 15px;
+}
+
+.card-rectangle-two {
+  margin-left: 400px;
+  margin-top: -385px;
+}
+
+.card-rectangle-three {
+  margin-left: 800px;
+  margin-top: -401px;
+}
+
+.btn-novosti {
+  margin-top: 72px;
+  border: 4px solid red;
+  width: 236px;
+  height: 56px;
+  text-align: center;
+  position: absolute;
+  left: 640px;
 }
