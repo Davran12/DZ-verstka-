@@ -505,3 +505,67 @@
   position: absolute;
   left: 640px;
 }
+
+#info__uslugi {
+  height: 200px;
+}
+
+.info_uslugi {
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+
+.footer-top {
+  background-image: url(../images/bg-footer.png);
+  width: 100%;
+  height: 342px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.footer-top__column h3 {
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.footer-top__column img {
+  padding-bottom: 80px;
+}
+
+.one {
+  padding-bottom: 70px;
+}
+
+.two {
+  padding-bottom: 105px;
+}
+
+.three {
+  padding-bottom: 65px;
+}
+
+.footer-top__column p {
+  padding-top: 16px;
+}
+
+.footer-top__column h5 {
+  color: var(--white-color);
+  font-size: 16px;
+  padding-top: 12px;
+}
+
+.footer-top__column button {
+  margin-bottom: 160px;
+  margin-top: 20px;
+  text-align: center;
+  width: 176px;
+  height: 40px;
+  border: 4px solid #c53720;
+}
+
+.btn__zakaz {
+  font-size: 13px;
+}
